@@ -1,0 +1,104 @@
+{
+    "classes": [
+        {
+            "className": "MyModel",
+            "lineNumber": 12,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "age",
+                            "type": "int"
+                        },
+                        {
+                            "name": "address",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "phoneNumber",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "job",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "addPerson",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "removePerson",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        },
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "age",
+                            "type": "int"
+                        },
+                        {
+                            "name": "address",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "phoneNumber",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "job",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "updatePerson",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "loadData",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "saveData",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "MyModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "MyModel.h",
+    "outputRevision": 68
+}

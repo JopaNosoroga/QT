@@ -1,0 +1,338 @@
+[
+    {
+        "classes": [
+            {
+                "className": "EmployeeModel",
+                "lineNumber": 17,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "loadData",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "EmployeeModel",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "id_company",
+                                "type": "int"
+                            },
+                            {
+                                "name": "id_jobtitle",
+                                "type": "int"
+                            },
+                            {
+                                "name": "email",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "phone",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "addEmployee",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "id",
+                                "type": "int"
+                            },
+                            {
+                                "name": "id_company",
+                                "type": "int"
+                            },
+                            {
+                                "name": "id_jobtitle",
+                                "type": "int"
+                            },
+                            {
+                                "name": "email",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "phone",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "updateEmployee",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "removeEmployee",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QSqlQueryModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "employee.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "IT_CompanyModel",
+                "lineNumber": 14,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "loadData",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "IT_CompanyModel",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "expenses",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "addCompany",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "id",
+                                "type": "int"
+                            },
+                            {
+                                "name": "expenses",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "updateCompany",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "removeCompany",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QSqlQueryModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "it_company.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "JobTitleModel",
+                "lineNumber": 15,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "loadData",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "JobTitleModel",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "salary",
+                                "type": "double"
+                            },
+                            {
+                                "name": "StandartHours",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "addJobtitle",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "id",
+                                "type": "int"
+                            },
+                            {
+                                "name": "salary",
+                                "type": "double"
+                            },
+                            {
+                                "name": "StandartHours",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "updateJobtitle",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "removeJobtitle",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QSqlQueryModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "jobtitle.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "ProjectModel",
+                "lineNumber": 14,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "loadData",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "ProjectModel",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "id_company",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "addProject",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "id",
+                                "type": "int"
+                            },
+                            {
+                                "name": "id_compzny",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "updateProject",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "removeProject",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QSqlQueryModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "projects.h",
+        "outputRevision": 68
+    }
+]

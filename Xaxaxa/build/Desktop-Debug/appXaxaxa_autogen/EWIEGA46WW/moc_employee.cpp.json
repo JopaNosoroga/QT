@@ -1,0 +1,100 @@
+{
+    "classes": [
+        {
+            "className": "EmployeeModel",
+            "lineNumber": 17,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "loadData",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "EmployeeModel",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "id_company",
+                            "type": "int"
+                        },
+                        {
+                            "name": "id_jobtitle",
+                            "type": "int"
+                        },
+                        {
+                            "name": "email",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "phone",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "addEmployee",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "id",
+                            "type": "int"
+                        },
+                        {
+                            "name": "id_company",
+                            "type": "int"
+                        },
+                        {
+                            "name": "id_jobtitle",
+                            "type": "int"
+                        },
+                        {
+                            "name": "email",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "phone",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "updateEmployee",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "removeEmployee",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QSqlQueryModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "employee.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,4 @@
+/home/stepan/Xaxaxa/build/Desktop-Debug/appXaxaxa_autogen/include/../EWIEGA46WW/moc_employee.cpp.json
+/home/stepan/Xaxaxa/build/Desktop-Debug/appXaxaxa_autogen/include/../EWIEGA46WW/moc_it_company.cpp.json
+/home/stepan/Xaxaxa/build/Desktop-Debug/appXaxaxa_autogen/include/../EWIEGA46WW/moc_jobtitle.cpp.json
+/home/stepan/Xaxaxa/build/Desktop-Debug/appXaxaxa_autogen/include/../EWIEGA46WW/moc_projects.cpp.json

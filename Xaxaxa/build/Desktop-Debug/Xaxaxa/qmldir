@@ -1,0 +1,5 @@
+module Xaxaxa
+typeinfo appXaxaxa.qmltypes
+prefer :/qt/qml/Xaxaxa/
+Main 1.0 Main.qml
+

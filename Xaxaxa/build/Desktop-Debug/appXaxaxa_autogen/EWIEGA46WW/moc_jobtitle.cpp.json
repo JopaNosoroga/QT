@@ -1,0 +1,84 @@
+{
+    "classes": [
+        {
+            "className": "JobTitleModel",
+            "lineNumber": 15,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "loadData",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "JobTitleModel",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "salary",
+                            "type": "double"
+                        },
+                        {
+                            "name": "StandartHours",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "addJobtitle",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "id",
+                            "type": "int"
+                        },
+                        {
+                            "name": "salary",
+                            "type": "double"
+                        },
+                        {
+                            "name": "StandartHours",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "updateJobtitle",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "removeJobtitle",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QSqlQueryModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "jobtitle.h",
+    "outputRevision": 68
+}
